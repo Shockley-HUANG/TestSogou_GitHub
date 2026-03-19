@@ -1,0 +1,5 @@
+测试名称: search_Selenium_2
+截图时间: 2026-03-17 14:32:47
+页面标题: Selenium - 搜狗搜索
+页面URL: https://www.sogou.com/web?query=Selenium&_asf=www.sogou.com&_ast=&w=01019900&p=40040100&ie=utf8&from=index-nologin&s_from=index&sourceid=9_01_03&sessiontime=1773729165431
+窗口大小: {'width': 2576, 'height': 1416}

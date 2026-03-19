@@ -1,0 +1,5 @@
+测试名称: search_自动化测试_3
+截图时间: 2026-03-16 20:20:51
+页面标题: 自动化测试 - 搜狗搜索
+页面URL: https://www.sogou.com/web?query=%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95&_asf=www.sogou.com&_ast=&w=01019900&p=40040100&ie=utf8&from=index-nologin&s_from=index&sourceid=9_01_03&sessiontime=1773663650677
+窗口大小: {'width': 2576, 'height': 1416}

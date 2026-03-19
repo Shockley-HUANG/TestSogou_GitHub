@@ -1,0 +1,5 @@
+测试名称: search_Python_1
+截图时间: 2026-03-16 20:16:41
+页面标题: Python - 搜狗搜索
+页面URL: https://www.sogou.com/web?query=Python&_asf=www.sogou.com&_ast=&w=01019900&p=40040100&ie=utf8&from=index-nologin&s_from=index&sourceid=9_01_03&sessiontime=1773663398911
+窗口大小: {'width': 2576, 'height': 1416}
