@@ -138,7 +138,7 @@ def driver():
     yield chrome_driver
 
     # --- 后置操作 (Teardown) ---
-    print("🧹 测试结束，正在关闭浏览器...")
+    print("\n🧹 测试结束，正在关闭浏览器...")
     sleep(2)  # 稍微延迟一下，方便观察最后状态或截图
     chrome_driver.quit()
     print("✅ 浏览器已关闭")

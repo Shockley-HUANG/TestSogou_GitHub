@@ -340,3 +340,50 @@ class SogouHomePage:
             element.click()
         except Exception as e:
             print(f"点击搜索按钮失败: {e}")
+
+    # 在 SogouHomePage 类中新增以下方法
+    def extract_all_links(self):
+        """
+        提取页面所有有效链接（去重）
+        :return: 列表，包含所有 http/https 链接
+        """
+        all_links = []
+
+        # 1. 提取顶部导航链接
+        try:
+            top_nav_items = self.driver.find_elements(*self.TOP_NAV_ALL_ITEMS)
+            for item in top_nav_items:
+                a_tag = item.find_element(By.TAG_NAME, "a") if item.find_elements(By.TAG_NAME, "a") else None
+                if a_tag:
+                    href = a_tag.get_attribute("href")
+                    if href:
+                        all_links.append(href)
+        except Exception as e:
+            print(f"提取顶部导航链接失败: {e}")
+
+        # 2. 提取搜索区域链接（Logo）
+        try:
+            logo = self.driver.find_element(*self.LOGO)
+            href = logo.get_attribute("href")
+            if href:
+                all_links.append(href)
+        except Exception as e:
+            print(f"提取Logo链接失败: {e}")
+
+        # 3. 提取底部页脚链接
+        try:
+            footer_links = self.driver.find_elements(*self.FOOTER_LINKS)
+            for link in footer_links:
+                href = link.get_attribute("href")
+                if href:
+                    all_links.append(href)
+        except Exception as e:
+            print(f"提取底部链接失败: {e}")
+
+        # 去重 + 过滤有效链接（仅保留 http/https）
+        valid_links = []
+        for link in all_links:
+            if link and link.startswith(("http://", "https://")) and link not in valid_links:
+                valid_links.append(link)
+
+        return valid_links
