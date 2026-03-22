@@ -3,6 +3,10 @@ from utils.wait_utils import WaitUtils
 import time
 import pdb  # 导入 pdb 模块
 
+import requests
+from bs4 import BeautifulSoup
+from requests.exceptions import RequestException
+from config import BASE_URL
 
 class SogouHomePage:
     def __init__(self, driver):
@@ -342,7 +346,7 @@ class SogouHomePage:
             print(f"点击搜索按钮失败: {e}")
 
     # 在 SogouHomePage 类中新增以下方法
-    def extract_all_links(self):
+    def extract_all_links_by_selenium(self):
         """
         提取页面所有有效链接（去重）
         :return: 列表，包含所有 http/https 链接
@@ -386,4 +390,58 @@ class SogouHomePage:
             if link and link.startswith(("http://", "https://")) and link not in valid_links:
                 valid_links.append(link)
 
+        return valid_links
+
+    # ===== 新增：纯 Requests 提取搜狗首页链接的方法 =====
+    def extract_all_links_by_requests(self):
+        """
+        不启动浏览器，纯 Requests + BeautifulSoup 提取搜狗首页链接
+        （和原有 Selenium 方法对比用）
+        """
+        # 初始化 Requests 请求头（模拟浏览器）
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+            "Accept-Language": "zh-CN,zh;q=0.9"
+        }
+        all_links = []
+        try:
+            # 1. Requests 访问搜狗首页（不启动浏览器）
+            response = requests.get(BASE_URL, headers=headers, timeout=8)
+            response.raise_for_status()  # 非200状态码抛出异常
+            # 2. BeautifulSoup 解析HTML（替代Selenium的元素定位）
+            soup = BeautifulSoup(response.text, "html.parser")
+            # 3. 提取所有 <a> 标签的 href（对应Selenium提取的区域）
+            # 提取顶部导航链接（CSS选择器和Selenium保持一致）
+            top_nav_links = soup.select("div.top-nav a")
+            for link in top_nav_links:
+                href = link.get("href")
+                if href:
+                    all_links.append(href)
+            # 提取Logo链接
+            logo_link = soup.select_one("a.logo")
+            if logo_link:
+                href = logo_link.get("href")
+                if href:
+                    all_links.append(href)
+            # 提取底部页脚链接
+            footer_links = soup.select("div.ft-info a")
+            for link in footer_links:
+                href = link.get("href")
+                if href:
+                    all_links.append(href)
+        except RequestException as e:
+            print(f"Requests 访问搜狗首页失败: {e}")
+            return []
+
+        # 4. 统一处理：去重 + 补全相对路径 + 过滤有效链接（和Selenium方法逻辑一致）
+        valid_links = []
+        for link in all_links:
+            if not link:
+                continue
+            # 补全相对路径（比如 "/about" → "https://www.sogou.com/about"）
+            if link.startswith("/"):
+                link = "https://www.sogou.com" + link
+            # 过滤HTTP/HTTPS链接 + 去重
+            if link.startswith(("http://", "https://")) and link not in valid_links:
+                valid_links.append(link)
         return valid_links

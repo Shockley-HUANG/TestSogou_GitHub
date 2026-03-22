@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+批量测试搜狗首页所有链接的有效性（链接提取基于REQUESTS, 测试基于requests库）
+核心验证：链接是否可访问、状态码是否2xx、响应耗时是否合理
+","17374","批量测试首页链接（通过REQUESTS提取）有效性（requests）","","2026-03-22","passed","2026-03-22","TestSogouHomepageElements","test_homepage_elements","",""

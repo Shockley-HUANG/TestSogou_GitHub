@@ -1,0 +1,14 @@
+.side-nav__brand {
+  background: url('rabbit.png') no-repeat left center !important;
+  margin-left: 10px;
+  height: 65px;
+  background-size: contain !important;
+}
+.side-nav__brand span{
+	display: none;
+}
+.side-nav__brand:after{
+	content: "Shockley";
+	margin-left: 10px;
+
+}

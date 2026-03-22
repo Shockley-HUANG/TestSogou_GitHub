@@ -5,6 +5,10 @@ import allure
 
 from utils.request_utils import RequestUtils
 
+# 新增导入URL工具类
+from utils.url_utils import UrlUtils
+
+import json  # 尝试allure attach json
 
 # ========== 修改1：类级别注解（补充feature/story，title才会在报告显示） ==========
 @allure.feature("搜狗首页测试模块")  # 大分类（报告里会显示）
@@ -52,23 +56,79 @@ class TestSogouHomepageElements:
         print(f"\n🔥 当前热搜提示词：{placeholder}")
         assert len(placeholder) > 0, "搜索框提示词为空"
 
+        # ===== 新增：对比 Selenium 和 Requests 提取/验证链接的测试 =====
 
-    # 新增导入
-    from utils.request_utils import RequestUtils
+    @allure.title("对比 Selenium 和 Requests 提取链接结果")
+    def test_compare_selenium_and_requests_links(self):
+        """
+        核心对比点：
+        1. 对两种方法提取的链接做标准化
+        2. 分析链接列表差异（Selenium vs Requests 提取的链接）
+        """
+        # 1. 分别获取两种方式提取的链接
+        selenium_links_original = self.home_page.extract_all_links_by_selenium()  # 原有Selenium方法
+        requests_links_original = self.home_page.extract_all_links_by_requests()  # 新增Requests方法
 
+        # ========== 新增：URL标准化（核心修复步骤）==========
+        selenium_links = UrlUtils.standardize_url_list(selenium_links_original)
+        requests_links = UrlUtils.standardize_url_list(requests_links_original)
+        # ====================================================
+        # 打印基础统计
+        print("\n===== 链接标准化后提取结果对比 =====")
+        print(f"Selenium 标准化后提取链接数：{len(selenium_links)}")
+        print(f"Requests 标准化后提取链接数：{len(requests_links)}")
+
+        # 2. 计算链接列表的交集/差集（找差异）
+        selenium_set = set(selenium_links)
+        requests_set = set(requests_links)
+        # 两者都有的链接（交集）
+        common_links = selenium_set & requests_set
+        # Selenium有、Requests没有的链接
+        selenium_only_links = selenium_set - requests_set
+        # Requests有、Selenium没有的链接
+        requests_only_links = requests_set - selenium_set
+
+        # 输出差异结果
+        print(f"\n✅ 两者共有的链接数：{len(common_links)}")
+        if common_links:
+            print(f"\n ========两者共有的链接==========")
+            for link in common_links:
+                print(f"\n - {link}")
+        if selenium_only_links:
+            print(f"\n⚠️  Selenium有、Requests没有的链接：")
+            for link in selenium_only_links:
+                print(f"  - {link}")
+        if requests_only_links:
+            print(f"\n⚠️  Requests有、Selenium没有的链接：")
+            for link in requests_only_links:
+                print(f"  - {link}")
+
+        # 构造一个字典结构
+        result_data = {
+            "common_links": list(common_links),
+            "selenium_only": list(selenium_only_links),
+            "requests_only": list(requests_only_links)
+        }
+        print(json.dumps(result_data, indent=2, ensure_ascii=False))
+
+        allure.attach(
+            body=json.dumps(result_data, indent=2, ensure_ascii=False), # 转成JSON字符串, 缩进2格，支持中文
+            name="selenium和requests提取到的链接",
+            attachment_type=allure.attachment_type.JSON
+        )
 
 
     # 在 TestSogouHomepageElements 类中新增测试方法
-    @allure.title("批量测试首页链接有效性（requests）")
-    def test_batch_check_links_with_requests(self):
+    @allure.title("批量测试首页链接（通过selenium提取）有效性（requests）")
+    def test_batch_check_links_extract_by_selenium_with_requests(self):
         """
-        批量测试搜狗首页所有链接的有效性（基于requests库）
+        批量测试搜狗首页所有链接的有效性（链接提取基于selenium, 测试基于requests库）
         核心验证：链接是否可访问、状态码是否2xx、响应耗时是否合理
         """
         # 1. 提取页面所有链接
-        all_links = self.home_page.extract_all_links()
+        all_links = self.home_page.extract_all_links_by_selenium()
         assert len(all_links) > 0, "未提取到任何有效链接，无法进行测试"
-        print(f"\n🔍 从页面提取到 {len(all_links)} 个唯一有效链接")
+        print(f"\n🔍 使用selenium从页面提取到 {len(all_links)} 个唯一有效链接")
 
         # 2. 初始化 requests 测试工具
         request_utils = RequestUtils(timeout=8)
@@ -81,7 +141,7 @@ class TestSogouHomepageElements:
         assert success_rate >= 80, f"链接成功率过低：{success_rate}%（预期≥80%）"
 
         # 5. （可选）将失败链接写入 Allure 报告
-        print(f"测试结果-summary: {test_result['summary']}")
+        print(f"📝测试结果-summary: {json.dumps(test_result['summary'], indent=2, ensure_ascii=False)}")
         if test_result["summary"]["failure_count"] > 0:
             failed_links_str = "\n".join([f"{item['url']} - {item['error_msg']}" for item in test_result["summary"]["failed_links"]])
             print(f"failed links: {failed_links_str}")
@@ -92,12 +152,62 @@ class TestSogouHomepageElements:
             )
 
         # 6. 【新增】将 details 写入 Allure 报告（完整原始数据）
-        print(f"测试结果—details: {test_result['details']}")
+        print(f"💯测试结果-details: {json.dumps(test_result['details'], indent=2, ensure_ascii=False)}")
         details_str = ""
         for idx, detail in enumerate(test_result["details"], 1):
             status = "成功" if detail["success"] else "失败"
             details_str += f"{idx}. URL: {detail['url']} | 状态: {status} | 状态码: {detail['status_code']} | 耗时: {detail['response_time']}ms | 错误: {detail['error_msg']}\n"
 
+        print(f"💯测试结果-details_str: {json.dumps(details_str, indent=2, ensure_ascii=False)}")
+        allure.attach(
+            body=details_str,
+            name="所有链接测试详情",
+            attachment_type=allure.attachment_type.TEXT
+        )
+
+        print(f"\n✅ 链接测试完成，成功率：{success_rate}%")
+
+    @allure.title("批量测试首页链接（通过REQUESTS提取）有效性（requests）")
+    def test_batch_check_links_extract_by_requests_with_requests(self):
+        """
+        批量测试搜狗首页所有链接的有效性（链接提取基于REQUESTS, 测试基于requests库）
+        核心验证：链接是否可访问、状态码是否2xx、响应耗时是否合理
+        """
+        # 1. 提取页面所有链接
+        all_links = self.home_page.extract_all_links_by_requests()
+        assert len(all_links) > 0, "未提取到任何有效链接，无法进行测试"
+        print(f"\n🔍 使用REQUESTS从页面提取到 {len(all_links)} 个唯一有效链接")
+
+        # 2. 初始化 requests 测试工具
+        request_utils = RequestUtils(timeout=8)
+
+        # 3. 批量测试链接
+        test_result = request_utils.batch_test_links(all_links)
+
+        # 4. 断言：成功率不低于80%（可根据需求调整）
+        success_rate = test_result["summary"]["success_rate"]
+        assert success_rate >= 80, f"链接成功率过低：{success_rate}%（预期≥80%）"
+
+        # 5. （可选）将失败链接写入 Allure 报告
+        print(f"📝测试结果-summary: {json.dumps(test_result['summary'], indent=2, ensure_ascii=False)}")
+        if test_result["summary"]["failure_count"] > 0:
+            failed_links_str = "\n".join(
+                [f"{item['url']} - {item['error_msg']}" for item in test_result["summary"]["failed_links"]])
+            print(f"failed links: {failed_links_str}")
+            allure.attach(
+                body=failed_links_str,
+                name="失败链接列表",
+                attachment_type=allure.attachment_type.TEXT
+            )
+
+        # 6. 【新增】将 details 写入 Allure 报告（完整原始数据）
+        print(f"💯测试结果-details: {json.dumps(test_result['details'], indent=2, ensure_ascii=False)}")
+        details_str = ""
+        for idx, detail in enumerate(test_result["details"], 1):
+            status = "成功" if detail["success"] else "失败"
+            details_str += f"{idx}. URL: {detail['url']} | 状态: {status} | 状态码: {detail['status_code']} | 耗时: {detail['response_time']}ms | 错误: {detail['error_msg']}\n"
+
+        print(f"💯测试结果-details_str: {json.dumps(details_str, indent=2, ensure_ascii=False)}")
         allure.attach(
             body=details_str,
             name="所有链接测试详情",
