@@ -1,0 +1,58 @@
+================================================================================
+测试结果-summary
+================================================================================
+
+{
+  "total_links": 23,
+  "success_count": 21,
+  "failure_count": 2,
+  "success_rate": 91.3,
+  "failed_links": [
+    {
+      "url": "https://www.sogou.com//e.qq.com?from=sougou01",
+      "status_code": 404,
+      "response_time": 700.29,
+      "success": false,
+      "error_msg": null
+    },
+    {
+      "url": "https://beian.miit.gov.cn/",
+      "status_code": 521,
+      "response_time": 819.68,
+      "success": false,
+      "error_msg": null
+    }
+  ]
+}
+
+
+================================================================================
+测试结果-details
+================================================================================
+
+1. URL: https://fankui.sogou.com/index.php/web/web/index/type/4 | 状态: 成功 | 状态码: 200 | 耗时: 704.41ms | 错误: None
+2. URL: http://zhishi.sogou.com | 状态: 成功 | 状态码: 200 | 耗时: 708.45ms | 错误: None
+3. URL: http://www.12377.cn | 状态: 成功 | 状态码: 200 | 耗时: 1368.93ms | 错误: None
+4. URL: http://fanyi.sogou.com?fr=common_index_nav_pc | 状态: 成功 | 状态码: 200 | 耗时: 746.37ms | 错误: None
+5. URL: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025 | 状态: 成功 | 状态码: 200 | 耗时: 954.95ms | 错误: None
+6. URL: http://mingyi.sogou.com?fr=common_index_nav | 状态: 成功 | 状态码: 200 | 耗时: 745.37ms | 错误: None
+7. URL: http://weixin.sogou.com/ | 状态: 成功 | 状态码: 200 | 耗时: 700.99ms | 错误: None
+8. URL: https://map.qq.com/ | 状态: 成功 | 状态码: 200 | 耗时: 775.62ms | 错误: None
+9. URL: http://hanyu.sogou.com?fr=pcweb_index_nav | 状态: 成功 | 状态码: 200 | 耗时: 746.3ms | 错误: None
+10. URL: http://zhihu.sogou.com/ | 状态: 成功 | 状态码: 200 | 耗时: 750.22ms | 错误: None
+11. URL: https://www.sogou.com//e.qq.com?from=sougou01 | 状态: 失败 | 状态码: 404 | 耗时: 700.29ms | 错误: None
+12. URL: https://wenwen.sogou.com/?ch=websearch | 状态: 成功 | 状态码: 200 | 耗时: 776.63ms | 错误: None
+13. URL: http://www.sogou.com/docs/more.htm?v=1 | 状态: 成功 | 状态码: 200 | 耗时: 23.09ms | 错误: None
+14. URL: http://as.sogou.com/ | 状态: 成功 | 状态码: 200 | 耗时: 733.06ms | 错误: None
+15. URL: http://pinyin.sogou.com/ | 状态: 成功 | 状态码: 200 | 耗时: 47.53ms | 错误: None
+16. URL: https://v.sogou.com/ | 状态: 成功 | 状态码: 200 | 耗时: 746.37ms | 错误: None
+17. URL: https://www.sogou.com/docs/privacy.htm?v=1 | 状态: 成功 | 状态码: 200 | 耗时: 768.31ms | 错误: None
+18. URL: http://baike.sogou.com | 状态: 成功 | 状态码: 200 | 耗时: 795.74ms | 错误: None
+19. URL: http://pic.sogou.com | 状态: 成功 | 状态码: 200 | 耗时: 815.09ms | 错误: None
+20. URL: https://beian.miit.gov.cn/ | 状态: 失败 | 状态码: 521 | 耗时: 819.68ms | 错误: None
+21. URL: http://ie.sogou.com/ | 状态: 成功 | 状态码: 200 | 耗时: 1554.94ms | 错误: None
+22. URL: http://123.sogou.com/ | 状态: 成功 | 状态码: 200 | 耗时: 793.13ms | 错误: None
+23. URL: http://www.sogou.com/docs/terms.htm?v=1 | 状态: 成功 | 状态码: 200 | 耗时: 23.56ms | 错误: None
+
+
+

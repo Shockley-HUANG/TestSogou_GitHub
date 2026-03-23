@@ -37,7 +37,12 @@ def pytest_configure(config):
     # 新增：验证报告路径（执行时可在控制台看到）
     print(f"\n[Pytest配置] 测试报告将生成到：{report_path}")
     
-    
+    # ===========【新增代码】===========
+    # 既然这里已经生成了唯一的时间戳和目录，
+    # 我们顺势生成一个 .log 文件的路径，并存入 config 对象
+    log_filename = f"test_report_{timestamp}.log"
+    # 将路径挂载到 config 对象上，变量名随意，比如 log_path
+    config.log_path = os.path.join(TESTRESULT_DIR, log_filename)
     
 # ==================== Pytest Fixture（session，全部夹具） ====================
 @pytest.fixture(scope="session", autouse=True)
