@@ -38,11 +38,74 @@ def pytest_configure(config):
     print(f"\n[Pytest配置] 测试报告将生成到：{report_path}")
     
     # ===========【新增代码】===========
-    # 既然这里已经生成了唯一的时间戳和目录，
-    # 我们顺势生成一个 .log 文件的路径，并存入 config 对象
-    log_filename = f"test_report_{timestamp}.log"
-    # 将路径挂载到 config 对象上，变量名随意，比如 log_path
-    config.log_path = os.path.join(TESTRESULT_DIR, log_filename)
+
+
+
+    """pytest-xdist 配置钩子用于每个worker ID单独写log"""
+    if hasattr(config, 'workerinput'):
+        # 多 worker 模式, 从 config 中获取当前 worker 的唯一标识 ID (例如 'gw0', 'gw1', 'gw2'...)
+        worker_id = config.workerinput['workerid']
+        print(f"\n🚀 Worker {worker_id} 已启动")
+        # 设置 worker 级别的配置
+        config.worker_stats = {'worker_id': worker_id}
+        # pytest-xdist模式，为每个worker_ID生成一个 .log 文件的路径，并存入 config 对象
+        log_filename = f"test_report_pytest_xdist_{worker_id}_{timestamp}.log"
+        # 将路径挂载到 config 对象上，变量名随意，比如 log_path
+        config.log_path = os.path.join(TESTRESULT_DIR, log_filename)
+    else:
+        # 单进程模式（没有用 -n 参数）
+        print("\n🚀 运行在单进程模式")
+        worker_id = 'Main'
+        # 单进程模式，生成一个 .log 文件的路径，并存入 config 对象
+        log_filename = f"test_report_single_process_{timestamp}.log"
+        # 将路径挂载到 config 对象上，变量名随意，比如 log_path
+        config.log_path = os.path.join(TESTRESULT_DIR, log_filename)
+
+    # 引入log文件
+    # 👇【新增】在这里写入文件头，每个 Worker 启动时只执行一次
+    # 【A. 写入文件头】每个进程启动时只写这一次
+    log_path = config.log_path
+    if not log_path:
+        raise ValueError("未在 conftest 中找到 log_path 配置")
+    print(f"📝 ===================日志将写入: {log_path}=======================")
+    with open(log_path, "w", encoding="utf-8") as f: # 建议用 "w" 模式，每次运行清空旧日志；如果想追加用 "a"
+        # ========== 文件头 ==========
+        f.write("=" * 80 + "\n")
+        f.write(f"test_{worker_id} Started.....................\n")
+        f.write("=" * 80 + "\n\n")
+        # 最后两个空行
+        f.write("\n\n")
+
+
+# 每个测试执行前：自动写入函数名（动态获取）
+# 我们可以在 conftest.py 中使用 pytest_runtest_setup 钩子。这个钩子会在每个测试函数执行前自动运行，它能获取到当前的函数名，并且不需要你在测试代码里写任何 f.write
+@pytest.hookimpl(tryfirst=True)
+def pytest_runtest_setup(item):
+    """
+    在每个测试函数开始执行前自动触发
+    :param item: 包含当前测试的所有信息（函数名、参数等）
+    """
+    log_path = item.config.log_path
+
+    # 获取动态函数名称
+    # item.name 包含参数，例如: test_search[test_case0]
+    # item.originalname 是原始函数名，例如: test_search
+    func_name = item.name
+
+    # 【B. 写入动态内容】
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(f"⏳ Start Running: {func_name}\n")
+
+# (可选) 每个测试执行后：写入结果
+def pytest_runtest_makereport(item, call):
+    if call.when == "call":  # 只在测试执行阶段（非setup/teardown）记录
+        log_path = item.config.log_path
+        outcome = call.excinfo is None  # 如果没有异常，说明通过
+
+        status = "✅ PASSED" if outcome else "❌ FAILED"
+
+        with open(log_path, "a", encoding="utf-8") as f:
+            f.write(f"{status}: {item.name}\n\n")
     
 # ==================== Pytest Fixture（session，全部夹具） ====================
 @pytest.fixture(scope="session", autouse=True)

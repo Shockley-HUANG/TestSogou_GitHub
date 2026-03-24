@@ -6,6 +6,7 @@ from config import BASE_URL
 import allure
 
 from utils.request_utils import RequestUtils
+from utils.json_utils import get_test_data_from_json
 
 # 新增导入URL工具类
 from utils.url_utils import UrlUtils
@@ -268,3 +269,25 @@ class TestSogouHomepageElements:
         """
 
         print(f"\n✅ 链接测试完成，成功率：{success_rate}%")
+
+class TestSogouSearch:
+
+    @allure.title("使用REQUESTS通过网页搜索API测试sogou的搜索功能，使用JSON驱动，引入并发")
+    @pytest.mark.parametrize("test_case", get_test_data_from_json()["search_test_cases"])
+    def test_batch_check_search_with_json_by_requests_through_sogou_API(self,request,test_case):
+        """
+        1. 使用requests通过Sogou search API
+        2. 搜索数据放在外部JSON
+        3. 引入并发pytest-xdist
+        """
+
+
+
+
+
+        # 初始化 requests 测试工具
+        request_utils = RequestUtils(timeout=8)
+        keyword = test_case["query"]
+        # 测试搜索
+        test_result = request_utils.test_search_API(keyword)
+        print(json.dumps(test_result, indent=2, ensure_ascii=False))

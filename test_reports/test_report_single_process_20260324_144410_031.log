@@ -1,0 +1,306 @@
+================================================================================
+test_{worker_id if hasattr(config, 'workerinput') else 'Main'} Started.....................
+================================================================================
+
+
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case0]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case0]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case1]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case1]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case2]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case2]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case3]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case3]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case4]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case4]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case5]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case5]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case6]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case6]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case7]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case7]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case8]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case8]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case9]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case9]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case10]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case10]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case11]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case11]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case12]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case12]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case13]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case13]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case14]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case14]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case15]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case15]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case16]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case16]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case17]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case17]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case18]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case18]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case19]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case19]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case20]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case20]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case21]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case21]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case22]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case22]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case23]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case23]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case24]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case24]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case25]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case25]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case26]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case26]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case27]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case27]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case28]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case28]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case29]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case29]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case30]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case30]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case31]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case31]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case32]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case32]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case33]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case33]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case34]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case34]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case35]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case35]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case36]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case36]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case37]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case37]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case38]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case38]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case39]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case39]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case40]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case40]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case41]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case41]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case42]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case42]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case43]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case43]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case44]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case44]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case45]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case45]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case46]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case46]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case47]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case47]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case48]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case48]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case49]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case49]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case50]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case50]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case51]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case51]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case52]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case52]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case53]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case53]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case54]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case54]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case55]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case55]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case56]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case56]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case57]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case57]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case58]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case58]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case59]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case59]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case60]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case60]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case61]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case61]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case62]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case62]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case63]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case63]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case64]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case64]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case65]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case65]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case66]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case66]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case67]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case67]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case68]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case68]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case69]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case69]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case70]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case70]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case71]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case71]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case72]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case72]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case73]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case73]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case74]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case74]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case75]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case75]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case76]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case76]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case77]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case77]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case78]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case78]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case79]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case79]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case80]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case80]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case81]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case81]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case82]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case82]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case83]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case83]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case84]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case84]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case85]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case85]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case86]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case86]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case87]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case87]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case88]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case88]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case89]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case89]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case90]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case90]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case91]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case91]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case92]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case92]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case93]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case93]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case94]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case94]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case95]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case95]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case96]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case96]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case97]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case97]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case98]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case98]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case99]
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case99]
+
