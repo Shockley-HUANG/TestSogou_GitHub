@@ -1,0 +1,1656 @@
+================================================================================
+test_gw1 Started.....................
+================================================================================
+
+
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case12]
+================================================================================
+
+-----------------------办理护照需要什么材料-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "办理护照需要什么材料",
+  "sleep_time": 3.0540343537891377,
+  "status_code": 200,
+  "response_time": 729.69,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case12]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case13]
+================================================================================
+
+-----------------------笔记本电脑推荐 办公用-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "笔记本电脑推荐 办公用",
+  "sleep_time": 4.458694022705595,
+  "status_code": 200,
+  "response_time": 686.47,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case13]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case14]
+================================================================================
+
+-----------------------如何快速入睡-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "如何快速入睡",
+  "sleep_time": 1.6926739534137503,
+  "status_code": 200,
+  "response_time": 1843.5,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case14]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case15]
+================================================================================
+
+-----------------------特斯拉Model Y最新价格-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "特斯拉Model Y最新价格",
+  "sleep_time": 1.0393390375260498,
+  "status_code": 200,
+  "response_time": 2685.82,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case15]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case16]
+================================================================================
+
+-----------------------抖音怎么注册-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "抖音怎么注册",
+  "sleep_time": 2.8795062229601314,
+  "status_code": 200,
+  "response_time": 767.56,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case16]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case17]
+================================================================================
+
+-----------------------企业所得税计算方法-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 OPR/108.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "企业所得税计算方法",
+  "sleep_time": 3.9439125518824203,
+  "status_code": 200,
+  "response_time": 766.68,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case17]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case18]
+================================================================================
+
+-----------------------附近有没有宠物医院-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "附近有没有宠物医院",
+  "sleep_time": 3.63937373438015,
+  "status_code": 200,
+  "response_time": 826.97,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case18]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case19]
+================================================================================
+
+-----------------------如何写一份好的简历-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "如何写一份好的简历",
+  "sleep_time": 2.9752336666350643,
+  "status_code": 200,
+  "response_time": 687.61,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case19]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case20]
+================================================================================
+
+-----------------------咖啡的做法大全-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "咖啡的做法大全",
+  "sleep_time": 4.722055358970883,
+  "status_code": 200,
+  "response_time": 748.52,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case20]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case21]
+================================================================================
+
+-----------------------React vs Vue 哪个好-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "React vs Vue 哪个好",
+  "sleep_time": 4.672893793872906,
+  "status_code": 200,
+  "response_time": 1256.84,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case21]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case22]
+================================================================================
+
+-----------------------明天上海会不会下雨-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "明天上海会不会下雨",
+  "sleep_time": 3.2573664273324883,
+  "status_code": 200,
+  "response_time": 1640.31,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case22]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case23]
+================================================================================
+
+-----------------------减肥食谱一周计划-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "减肥食谱一周计划",
+  "sleep_time": 2.572958029458864,
+  "status_code": 200,
+  "response_time": 717.13,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case23]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case42]
+================================================================================
+
+-----------------------甲流和普通感冒的区别-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "甲流和普通感冒的区别",
+  "sleep_time": 2.1470881313091374,
+  "status_code": 200,
+  "response_time": 704.28,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case42]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case43]
+================================================================================
+
+-----------------------手机屏幕碎了怎么修-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 BaiduBoxLauncher/1.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "手机屏幕碎了怎么修",
+  "sleep_time": 1.5732594148759027,
+  "status_code": 200,
+  "response_time": 1961.75,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case43]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case44]
+================================================================================
+
+-----------------------京东618活动规则-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "京东618活动规则",
+  "sleep_time": 3.180444711401556,
+  "status_code": 200,
+  "response_time": 712.28,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case44]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case45]
+================================================================================
+
+-----------------------git 撤销上一次的提交-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "git 撤销上一次的提交",
+  "sleep_time": 2.649808828873547,
+  "status_code": 200,
+  "response_time": 870.89,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case45]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case46]
+================================================================================
+
+-----------------------猫咪吃什么食物禁忌-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "猫咪吃什么食物禁忌",
+  "sleep_time": 2.743951830630329,
+  "status_code": 200,
+  "response_time": 742.0,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case46]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case47]
+================================================================================
+
+-----------------------深圳租房哪个区性价比高-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 QBQrowser/11.5.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "深圳租房哪个区性价比高",
+  "sleep_time": 1.247883154078386,
+  "status_code": 200,
+  "response_time": 853.78,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case47]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case48]
+================================================================================
+
+-----------------------如何写商业计划书-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "如何写商业计划书",
+  "sleep_time": 2.5257431992292205,
+  "status_code": 200,
+  "response_time": 843.67,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case48]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case49]
+================================================================================
+
+-----------------------瑜伽初学者入门动作-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "瑜伽初学者入门动作",
+  "sleep_time": 1.0661993234358143,
+  "status_code": 200,
+  "response_time": 730.07,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case49]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case50]
+================================================================================
+
+-----------------------路由器怎么设置WiFi-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "路由器怎么设置WiFi",
+  "sleep_time": 1.8179823134870188,
+  "status_code": 200,
+  "response_time": 702.82,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case50]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case51]
+================================================================================
+
+-----------------------交通事故责任划分-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "交通事故责任划分",
+  "sleep_time": 2.641554186656214,
+  "status_code": 200,
+  "response_time": 752.57,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case51]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case52]
+================================================================================
+
+-----------------------宝宝辅食添加时间表-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14.2; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "宝宝辅食添加时间表",
+  "sleep_time": 3.126331189709476,
+  "status_code": 200,
+  "response_time": 773.83,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case52]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case53]
+================================================================================
+
+-----------------------上海迪士尼门票价格-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "上海迪士尼门票价格",
+  "sleep_time": 1.6482157592141347,
+  "status_code": 200,
+  "response_time": 883.93,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case53]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case54]
+================================================================================
+
+-----------------------linux常用命令大全-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "linux常用命令大全",
+  "sleep_time": 4.934026200209574,
+  "status_code": 200,
+  "response_time": 1143.05,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case54]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case55]
+================================================================================
+
+-----------------------二手车买卖注意事项-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "二手车买卖注意事项",
+  "sleep_time": 2.306041625127577,
+  "status_code": 200,
+  "response_time": 691.95,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case55]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case56]
+================================================================================
+
+-----------------------PPT模板免费下载-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "PPT模板免费下载",
+  "sleep_time": 1.1813260247978437,
+  "status_code": 200,
+  "response_time": 742.76,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case56]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case57]
+================================================================================
+
+-----------------------胃痛怎么快速缓解-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "胃痛怎么快速缓解",
+  "sleep_time": 2.131118809211902,
+  "status_code": 200,
+  "response_time": 717.89,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case57]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case58]
+================================================================================
+
+-----------------------抖音直播带货怎么做-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "抖音直播带货怎么做",
+  "sleep_time": 3.5845836125044785,
+  "status_code": 200,
+  "response_time": 704.16,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case58]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case59]
+================================================================================
+
+-----------------------离婚程序怎么走-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "离婚程序怎么走",
+  "sleep_time": 4.90063837525962,
+  "status_code": 200,
+  "response_time": 705.15,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case59]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case60]
+================================================================================
+
+-----------------------AirPods Pro 使用技巧-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "AirPods Pro 使用技巧",
+  "sleep_time": 3.9856539936240853,
+  "status_code": 200,
+  "response_time": 817.78,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case60]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case61]
+================================================================================
+
+-----------------------怎么做自媒体赚钱-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13.4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "怎么做自媒体赚钱",
+  "sleep_time": 2.703376800088921,
+  "status_code": 200,
+  "response_time": 795.94,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case61]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case62]
+================================================================================
+
+-----------------------成都小吃排行榜-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13.4; rv:120.0) Gecko/20100101 Firefox/120.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "成都小吃排行榜",
+  "sleep_time": 1.8919599390185176,
+  "status_code": 403,
+  "response_time": 730.89,
+  "success": false,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case62]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case63]
+================================================================================
+
+-----------------------微信被封了怎么解封-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "微信被封了怎么解封",
+  "sleep_time": 3.758189989086289,
+  "status_code": 200,
+  "response_time": 729.06,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case63]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case64]
+================================================================================
+
+-----------------------MBA报考条件-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 SE 2.X MetaSr 1.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "MBA报考条件",
+  "sleep_time": 4.567493198035132,
+  "status_code": 200,
+  "response_time": 710.63,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case64]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case73]
+================================================================================
+
+-----------------------2024考研时间安排-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "2024考研时间安排",
+  "sleep_time": 4.320218693286615,
+  "status_code": 200,
+  "response_time": 780.43,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case73]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case74]
+================================================================================
+
+-----------------------汽车保险怎么买划算-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Mobile/15E148 Safari/604.1",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "汽车保险怎么买划算",
+  "sleep_time": 1.7546591683042143,
+  "status_code": 200,
+  "response_time": 1816.5,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case74]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case75]
+================================================================================
+
+-----------------------阳台种菜用什么土壤-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "阳台种菜用什么土壤",
+  "sleep_time": 2.9725150587754943,
+  "status_code": 200,
+  "response_time": 686.58,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case75]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case76]
+================================================================================
+
+-----------------------抖音热榜第一名-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "抖音热榜第一名",
+  "sleep_time": 3.1985112928027974,
+  "status_code": 200,
+  "response_time": 715.31,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case76]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case77]
+================================================================================
+
+-----------------------企业所得税优惠减免政策-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "企业所得税优惠减免政策",
+  "sleep_time": 4.0496954483111125,
+  "status_code": 200,
+  "response_time": 714.25,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case77]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case78]
+================================================================================
+
+-----------------------如何预防颈椎病-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "如何预防颈椎病",
+  "sleep_time": 3.814913904998107,
+  "status_code": 200,
+  "response_time": 757.46,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case78]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case83]
+================================================================================
+
+-----------------------NBA最新排名-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "NBA最新排名",
+  "sleep_time": 1.273854278295969,
+  "status_code": 200,
+  "response_time": 681.0,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case83]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case84]
+================================================================================
+
+-----------------------装修风格有哪些-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14.2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "装修风格有哪些",
+  "sleep_time": 4.761109214450018,
+  "status_code": 200,
+  "response_time": 719.42,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case84]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case85]
+================================================================================
+
+-----------------------信用卡逾期怎么处理-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "信用卡逾期怎么处理",
+  "sleep_time": 3.8270756701059323,
+  "status_code": 200,
+  "response_time": 2042.69,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case85]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case90]
+================================================================================
+
+-----------------------如何判断女生是否喜欢你-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "如何判断女生是否喜欢你",
+  "sleep_time": 2.650384539338541,
+  "status_code": 200,
+  "response_time": 1013.72,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case90]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case91]
+================================================================================
+
+-----------------------电动车续航里程排名-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "电动车续航里程排名",
+  "sleep_time": 3.966228955866948,
+  "status_code": 200,
+  "response_time": 800.9,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case91]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case92]
+================================================================================
+
+-----------------------企业所得税季度申报流程-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "企业所得税季度申报流程",
+  "sleep_time": 3.268528926210079,
+  "status_code": 200,
+  "response_time": 708.58,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case92]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case94]
+================================================================================
+
+-----------------------PS5国行和港版的区别-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "PS5国行和港版的区别",
+  "sleep_time": 3.737704681634089,
+  "status_code": 200,
+  "response_time": 2734.96,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case94]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case96]
+================================================================================
+
+-----------------------手表品牌排行榜-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 OPR/108.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "手表品牌排行榜",
+  "sleep_time": 3.864574368187841,
+  "status_code": 200,
+  "response_time": 770.94,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case96]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case99]
+================================================================================
+
+-----------------------如何做一个合格的父亲-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "如何做一个合格的父亲",
+  "sleep_time": 3.9021042342790166,
+  "status_code": 200,
+  "response_time": 769.75,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case99]
+

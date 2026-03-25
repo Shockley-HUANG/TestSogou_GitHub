@@ -1,0 +1,21 @@
+{
+    "uuid": "f17c45d9-f106-4b6e-8f5f-79b99287fdc1",
+    "historyId": "global-log-collector",
+    "name": "00_\u5e76\u53d1\u6d4b\u8bd5\u65e5\u5fd7\u6c47\u603b (All Logs)",
+    "status": "passed",
+    "stage": "finished",
+    "start": 1774409838223,
+    "stop": 1774409838223,
+    "attachments": [
+        {
+            "name": "\u65e5\u5fd7: test_report_pytest_xdist_gw0_20260325_113653_781.log",
+            "source": "3a9047cc-590e-43a9-90d7-3a85a392516b",
+            "type": "json"
+        },
+        {
+            "name": "\u65e5\u5fd7: test_report_pytest_xdist_gw1_20260325_113653_952.log",
+            "source": "83fcb348-2cf6-4413-9a0c-9dcbebb548b1",
+            "type": "json"
+        }
+    ]
+}

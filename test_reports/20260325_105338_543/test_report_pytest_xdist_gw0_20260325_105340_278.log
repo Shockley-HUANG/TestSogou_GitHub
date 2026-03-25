@@ -1,0 +1,171 @@
+================================================================================
+test_gw0 Started.....................
+================================================================================
+
+
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case0]
+================================================================================
+
+-----------------------iPhone 15 Pro Max 价格-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "iPhone 15 Pro Max 价格",
+  "sleep_time": 2.7573696766091027,
+  "status_code": 200,
+  "response_time": 755.76,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case0]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case1]
+================================================================================
+
+-----------------------如何学习Python编程-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "如何学习Python编程",
+  "sleep_time": 4.242761970396913,
+  "status_code": 200,
+  "response_time": 714.77,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case1]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case5]
+================================================================================
+
+-----------------------人工智能的最新发展-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "人工智能的最新发展",
+  "sleep_time": 2.3471993362301067,
+  "status_code": 200,
+  "response_time": 705.25,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case5]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case8]
+================================================================================
+
+-----------------------2024年春节放假安排-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "2024年春节放假安排",
+  "sleep_time": 4.885495311381328,
+  "status_code": 200,
+  "response_time": 713.68,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case8]
+
+⏳ Start Running: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case9]
+================================================================================
+
+-----------------------张三的电话号码-测试结果---------------------
+================================================================================
+
+{
+  "url": "https://www.sogou.com/web",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Quark/1.0.0.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "Referer": "https://www.sogou.com/"
+  },
+  "query_params": "张三的电话号码",
+  "sleep_time": 4.822944570776751,
+  "status_code": 200,
+  "response_time": 702.53,
+  "success": true,
+  "error_msg": null
+}
+
+✅ PASSED: test_batch_check_search_with_json_by_requests_through_sogou_API[test_case9]
+

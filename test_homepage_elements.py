@@ -1,4 +1,5 @@
 import os
+import glob # 查找文件
 
 import pytest
 from pages.sogou_home import SogouHomePage
@@ -272,6 +273,8 @@ class TestSogouHomepageElements:
 
 class TestSogouSearch:
 
+    # 标记这是一个被依赖的测试，名字叫 'main_test'
+    # @pytest.mark.dependency(name='main_test'), 问题在于@pytest.mark.dependency并不能保证并发测试中的执行顺序，尤其是在使用pytest-xdist并行执行时。这个装饰器主要用于控制测试用例的跳过/执行依赖，而不是执行顺序。
     @allure.title("使用REQUESTS通过网页搜索API测试sogou的搜索功能，使用JSON驱动，引入并发")
     @pytest.mark.parametrize("test_case", get_test_data_from_json()["search_test_cases"])
     def test_batch_check_search_with_json_by_requests_through_sogou_API(self,request,test_case):
@@ -281,13 +284,26 @@ class TestSogouSearch:
         3. 引入并发pytest-xdist
         """
 
-
-
-
-
         # 初始化 requests 测试工具
         request_utils = RequestUtils(timeout=8)
         keyword = test_case["query"]
         # 测试搜索
         test_result = request_utils.test_search_API(keyword)
+
+        log_path=request.config.log_path
+        with open(log_path, "a", encoding="utf-8") as f:
+            # ========== 文件头 ==========
+            f.write("=" * 80 + "\n")
+            f.write(f"-----------------------{keyword}-测试结果---------------------\n")
+            f.write("=" * 80 + "\n\n")
+            # ========== 主体内容 ==========
+            f.write(json.dumps(test_result, indent=2, ensure_ascii=False))
+            f.write("\n\n")  # 内容结束后换行
+
         print(json.dumps(test_result, indent=2, ensure_ascii=False))
+
+    # 收尾测试：必须放到conftes pytest_sessionfinish，真正的最后执行，不会并发干扰
+    # 注意：即使命令行用了 -n 2，这个依赖关系也能保证它最后执行
+    # @pytest.mark.dependency(depends=["main_test"]) 问题在于@pytest.mark.dependency并不能保证并发测试中的执行顺序，尤其是在使用pytest-xdist并行执行时。这个装饰器主要用于控制测试用例的跳过/执行依赖，而不是执行顺序。
+    # def test_generate_final_log_report_for_allure(self, log_dir): # 这里代码已经移到conftest pytest_sessionfinish
+        """最后执行：将汇总日志附加到 Allure 报告"""
